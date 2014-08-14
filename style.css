@@ -12,3 +12,10 @@ License URI:
  
 Hello World!
 */
+
+@import url('bootstrap/css/bootstrap.min.css');
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
