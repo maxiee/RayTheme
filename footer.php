@@ -6,7 +6,7 @@
 
     </div> <!-- /container -->
 
-    <script src = "<?php get_template_directory(); ?>/bootstrap/js/bootstrap.js"></script>
+    <script src = "<?php echo get_stylesheet_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
 
     <?php wp_footer(); ?>
 
