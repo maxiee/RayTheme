@@ -1,7 +1,7 @@
     <hr>
 
         <footer>
-            <p>&copy; Company 2012</p>
+            <p>Theme:<a href="https://github.com/maxiee/RayTheme">RayTheme</a>. Create by Maxiee. License: GPLv3</p>
         </footer>
 
     </div> <!-- /container -->
