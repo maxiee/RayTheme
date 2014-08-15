@@ -11,7 +11,7 @@
     <body>
         <div class = "navbar navbar-default navbar-fixed-top"  role="navigation">
             <div class = "container">
-                <a href = "#" class = "navbar-brand">Judymax</a>
+                <a href="<?php bloginfo('url'); ?>" class = "navbar-brand"><?php bloginfo('name'); ?></a>
 
                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                     <span class = "icon-bar"></span>
