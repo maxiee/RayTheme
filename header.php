@@ -27,22 +27,7 @@
                 </div>
                 <div>
                     <ul class = "nav navbar-nav">
-                        <li class="active"><a href = "#">Home</a></li>
-                        <li><a href = "#about">About</a></li>
-                        <li><a href = "#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href = "#" class="dropdown-toggle" data-toggle="dropdown">
-                                Linux
-                                <b class="caret"></b>
-                            </a>
-                            <ul class = "dropdown-menu">
-                                <li><a href="#">Arch</a></li>
-                                <li><a href="#">Gentoo</a></li>
-                                <li><a href="#">Fedora</a></li>
-                                <li><a href="#">Debian</a></li>
-                                <li><a href="#">Deepin</a></li>
-                            </ul>
-                        </li>
+                        <?php wp_list_pages('depth=1&title_li=&sort_column=menu_order'); ?>
                    </ul>
                 </div>
         </nav>
