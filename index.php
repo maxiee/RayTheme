@@ -12,7 +12,8 @@
                 <?php edit_post_link('Edit',' | '); ?><br />
                 <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
             </p>
-                 <div><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 330,"..."); ?></div>
+                 <div><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 330,"..."); ?><br />
+                 <span>[<a href="<?php the_permalink() ?>" title="Read more" rel="bookmark">Read More</a>]</span></div>
             <?php endwhile; endif; ?>
             <?php posts_nav_link(); ?>
         </div>
