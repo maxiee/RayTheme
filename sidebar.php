@@ -1,4 +1,4 @@
-<div class = "col-xs-4">
+<div class = "col-sm-4">
     <ul>
         <li><h2><?php _e('Categories'); ?></h2>
             <ul>
