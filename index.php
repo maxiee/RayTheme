@@ -6,12 +6,12 @@
                 <div class="well">
                     <div class="post-header"><h2><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                         <span>
-                            <?php _e('Category&#58;'); ?>
+                            <?php _e('分类:'); ?>
                             <?php the_category(','); ?>
-                            <?php _e('Author&#58;'); ?>
+                            <?php _e('作者:'); ?>
                             <?php the_author(','); ?>
-                            <?php edit_post_link('Edit',' | '); ?>
-                            <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
+                            <?php edit_post_link('编辑',' '); ?>
+                            <?php comments_popup_link('无评论', '1条评论', '%条评论'); ?>
                         </span>
                     </div>
                     <div class="post-content"><?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 330,"..."); ?>
