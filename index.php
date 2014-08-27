@@ -2,6 +2,17 @@
 
     <div class = "row">
         <div class = "col-sm-8">
+            <div class="well">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- bannerad -->
+                <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-8746515866560942"
+                        data-ad-slot="8660425604"></ins>
+                <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
             <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
                 <div class="well">
                     <div class="post-header"><h2><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

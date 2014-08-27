@@ -14,4 +14,15 @@
                 } ?>
         </div>
     </div>
+    <div class="panel">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- 大侧边栏 -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:336px;height:280px"
+	     data-ad-client="ca-pub-8746515866560942"
+	     data-ad-slot="6851626009"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+    </div>
 </div>
