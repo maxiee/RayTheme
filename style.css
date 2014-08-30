@@ -18,8 +18,6 @@ Hello World!
 body {
     padding-top: 60px;
     padding-bottom: 40px;
-    font-family: "Open Sans","Helvetica Neue","Hiragino Sans GB",sans-serif,Arial,Verdana,"BitStream vera Sans",Tahoma,Helvetica,Sans-serif;
-    font-size: 16px;
 }
 
 p {
@@ -36,10 +34,10 @@ img {
 }
 
 .post-content{
+    font-size:16px;
     padding-top:15px;
     line-height:1.7;
     font-weight: 400;
-    overflow:hidden;
     border-left: 1px solid #EEE;
     border-right: 1px solid #EEE;
 }
@@ -47,6 +45,5 @@ img {
 h2{
     margin-top:10px;
     font-size:30px;
-    font-family:'Microsoft YaHei',Verdana,"BitStream vera Sans";
     font-weight:bold;
 }
