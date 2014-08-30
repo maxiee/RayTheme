@@ -5,7 +5,7 @@
     <div class="panel panel-default panel-body">
         <div class="list-group">
             <?php
-                $args=array('orderby' => 'id', 'order' => 'ASC', 'parent' => 0);
+                $args=array('order' => 'ASC', 'parent' => 0, 'pad_counts' => true);
                 $categories=get_categories($args);
                 foreach($categories as $category) { 
                     echo '<a href="' . get_category_link( $category->term_id ) . '" title="' . sprintf( __( "View all posts in %s" ), $category->name ) 
