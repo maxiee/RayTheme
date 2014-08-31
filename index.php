@@ -2,7 +2,7 @@
 
     <div class = "row">
         <div class = "col-sm-8">
-            <div class="well">
+            <div>
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- bannerad -->
                 <ins class="adsbygoogle"
