@@ -1,7 +1,13 @@
-<div class = "col-sm-3">
+<div class = "col-sm-4">
     <div>
-       <iframe width="100%" height="100" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1240212845&verifier=8704b6ca&dpc=1"></iframe> 
+       <iframe width="100%" height="140" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1240212845&verifier=8704b6ca&dpc=1"></iframe> 
     </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">最多阅读</div>
+        <div class="panel-body list-group">
+            <?php get_most_viewed(); ?>
+        </div>
+    </div> 
     <div class="panel panel-default panel-body">
         <div class="list-group">
             <?php
