@@ -8,9 +8,9 @@
             } elseif (is_single() || is_page() ) {
                 single_post_title();
             } elseif (is_search() ) {
-                echo "¿?¿?¿?¿?"; echo " - "; bloginfo('name');
+                echo "æœç´¢"; echo " - "; bloginfo('name');
             } elseif (is_404() ) {
-                echo '¿?¿?¿?¿?¿?!';
+                echo 'é¡µé¢ä¸å­˜åœ¨!';
             } else {
                 wp_title('',true);
             } ?></title>        
@@ -28,7 +28,8 @@
                 </div>
                 <div>
                     <ul class = "nav navbar-nav">
-                        <?php wp_list_pages('depth=1&title_li=&sort_column=menu_order'); ?>
+                        <li><a href="http://www.judymax.com/%e5%85%b3%e4%ba%8e">å…³äºŽ</a></li>
+                        <li><a href="http://www.judymax.com/%e5%bd%92%e6%a1%a3">å½’æ¡£</a></li>
                    </ul>
                 </div>
         </nav>
