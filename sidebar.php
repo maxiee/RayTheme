@@ -9,7 +9,13 @@
         </div>
     </div> 
     <div class="panel panel-default panel-body">
-        <div class="list-group">
+        <div class="panel-heading">专题</div>
+        <div class="panel-body list-group">
+            <a href="http://www.judymax.com/sympy%E6%95%99%E7%A8%8B" class="list-group-item">SymPy教程</a></div>
+    </div>
+    <div class="panel panel-default panel-body">
+        <div class="panel-heading">分类</div>
+        <div class="panel-body list-group">
             <?php
                 $args=array('order' => 'ASC', 'parent' => 0, 'pad_counts' => true);
                 $categories=get_categories($args);
