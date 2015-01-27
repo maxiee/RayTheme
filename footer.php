@@ -10,11 +10,13 @@
     <script src = "<?php echo get_stylesheet_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Material Design for BootStrap -->
+	<!--
 	<script src="//cdn.bootcss.com/bootstrap-material-design/0.2.1/js/ripples.min.js"></script>
 	<script src="//cdn.bootcss.com/bootstrap-material-design/0.2.1/js/material.min.js"></script>
     <script>
 		jQuery.material.init();
     </script>
+	-->
 
     <?php wp_footer(); ?>
 
