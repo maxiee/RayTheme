@@ -22,7 +22,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <nav class = "navbar navbar-default container"  role="navigation">
+        <nav class = "navbar navbar-default navbar-fixed-top"  role="navigation">
                 <div class = "navbar-header">
                     <a href="<?php bloginfo('url'); ?>" class = "navbar-brand"><?php bloginfo('name'); ?></a>
                 </div>
