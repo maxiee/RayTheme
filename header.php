@@ -27,9 +27,14 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <nav class = "navbar navbar-default navbar-fixed-top"  role="navigation">
+        <nav class = "navbar navbar-default navbar-fixed-top">
                 <div class = "navbar-header">
-                    <a href="<?php bloginfo('url'); ?>" class = "navbar-brand"><?php bloginfo('name'); ?></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                    <a class = "navbar-brand" href="<?php bloginfo('url'); ?>" ><?php bloginfo('name'); ?></a>
                 </div>
                 <div>
                     <ul class = "nav navbar-nav">
