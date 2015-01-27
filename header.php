@@ -30,6 +30,7 @@
                     <ul class = "nav navbar-nav">
                         <li><a href="http://www.judymax.com/%e5%85%b3%e4%ba%8e">关于</a></li>
                         <li><a href="http://www.judymax.com/%e5%bd%92%e6%a1%a3">归档</a></li>
+			<li><a href="<?php bloginfo('rss2_url'); ?>" title="RSS订阅本站">RSS订阅</a></li>
                    </ul>
                 </div>
         </nav>
