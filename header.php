@@ -18,6 +18,11 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+		
+		<!-- Material Design for Bootstrap -->
+		<link href="//cdn.bootcss.com/bootstrap-material-design/0.2.1/css/material-wfont.min.css" rel="stylesheet">
+		<link href="//cdn.bootcss.com/bootstrap-material-design/0.2.1/cssripples.min.css" rel="stylesheet">
+		
         <?php wp_enqueue_script("jquery"); ?>
         <?php wp_head(); ?>
     </head>
