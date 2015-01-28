@@ -30,6 +30,13 @@ img {
     max-width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.8;
+	text-shadow: 0px 1px 0px #FFF, 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 h2{
     margin-top:10px;
     font-size:30px;
@@ -37,10 +44,8 @@ h2{
 }
 
 h4{
-    color:#1B72F3;
+    color:#4db6ac;
     margin:40px 0px 10px;
-    padding: 10px 0px 10px 10px;
-    background-color:#DBDBDB;
-    font-size: 130%;
+    font-size: 24px;
     font-weight: bold;
 }
