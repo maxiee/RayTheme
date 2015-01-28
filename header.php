@@ -20,7 +20,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<nav class = "navbar navbar-default" role="navigation">
+
+	<nav class = "navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class = "navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 			<span class="icon-bar"></span>
