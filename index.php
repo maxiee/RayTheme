@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-
+	<?php include "leftsidebar.php"; ?>
     <div class = "row">
-        <div class = "col-sm-8">
+        <div class = "col-md-6 col-lg-6">
             <div>
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- 响应式Banner -->
