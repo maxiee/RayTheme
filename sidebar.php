@@ -10,7 +10,7 @@
         </div>
     </div> 
     <div class="panel panel-material-teal">
-        <div class="panel-heading">专题</div>
+        <div class="panel-heading">Python科学计算专题</div>
         <div class="panel-body list-group">
             <a href="http://www.judymax.com/sympy%E6%95%99%E7%A8%8B" class="list-group-item">SymPy教程</a></div>
     </div>
