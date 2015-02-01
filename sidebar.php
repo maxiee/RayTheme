@@ -9,23 +9,28 @@
             <?php get_most_viewed(); ?>
         </div>
     </div> 
-    <div class="panel panel-material-teal">
-        <div class="panel-heading">Python科学计算专题</div>
+	<div class="panel panel-material-teal">
+        <div class="panel-heading">Android 开发专题</div>
         <div class="panel-body list-group">
-            <a href="http://www.judymax.com/sympy%E6%95%99%E7%A8%8B" class="list-group-item">SymPy教程</a></div>
+            <a href="http://www.judymax.com/archives/1021" class="list-group-item">用AppCompat v21开发Material Design主题应用</a>
+			<a href="http://www.judymax.com/archives/1024" class="list-group-item">用Tab和ViewPager实现Swipe Views</a>
+			<a href="http://www.judymax.com/archives/771" class="list-group-item">导航抽屉(Navigation Drawer)</a>
+			<a href="http://www.judymax.com/archives/608" class="list-group-item">内容可更新的自定义对话框</a>
+			</div>
+    </div>
+	
+	<div class="panel panel-material-teal">
+        <div class="panel-heading">Linux 专题</div>
+        <div class="panel-body list-group">
+            <a href="http://www.judymax.com/linux%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%B3%BB%E5%88%97" class="list-group-item">Linux系统开发系列</a>
+			<a href="http://www.judymax.com/gentoo%E4%BD%BF%E7%94%A8%E7%B3%BB%E5%88%97" class="list-group-item">Gentoo使用系列</a>
+		</div>
+    </div>
+	
+    <div class="panel panel-material-teal">
+        <div class="panel-heading">Python 科学计算专题</div>
+        <div class="panel-body list-group">
+            <a href="http://www.judymax.com/sympy%E6%95%99%E7%A8%8B" class="list-group-item">SymPy系列教程</a></div>
     </div>
     
-    <div class="panel panel-material-teal">
-		<div class="panel-heading">广告</div>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- 响应式侧边栏 -->
-		<ins class="adsbygoogle"
-			 style="display:block"
-			 data-ad-client="ca-pub-8746515866560942"
-			 data-ad-slot="6858804406"
-			 data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-    </div>
 </div>
