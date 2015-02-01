@@ -11,15 +11,26 @@
                     <span class = "lebel"><?php the_views(); ?></span>
                     <div class="post-content">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 文章的开头 -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:728px;height:90px"
-                             data-ad-client="ca-pub-8746515866560942"
-                             data-ad-slot="9805092404"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+					<!-- 响应式文章开头 -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-8746515866560942"
+						 data-ad-slot="5080373204"
+						 data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
                     <?php the_content(); ?>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- 响应式文章结尾 -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-8746515866560942"
+						 data-ad-slot="8033839608"
+						 data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
                     </div>
                 <?php endwhile; endif; ?>
             </div>
